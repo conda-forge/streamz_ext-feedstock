@@ -14,12 +14,15 @@ Summary: Extension of Streamz
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/streamz_ext-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/streamz_ext-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/streamz_ext-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/streamz_ext-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/streamz_ext/badges/version.svg)](https://anaconda.org/conda-forge/streamz_ext)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/streamz_ext/badges/downloads.svg)](https://anaconda.org/conda-forge/streamz_ext)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-streamz_ext-green.svg)](https://anaconda.org/conda-forge/streamz_ext) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/streamz_ext.svg)](https://anaconda.org/conda-forge/streamz_ext) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/streamz_ext.svg)](https://anaconda.org/conda-forge/streamz_ext) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/streamz_ext.svg)](https://anaconda.org/conda-forge/streamz_ext) |
 
 Installing streamz_ext
 ======================
