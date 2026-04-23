@@ -13,15 +13,15 @@ source:
 
 build:
   noarch: python
-  number: 0
-  script: python -m pip install --no-deps --ignore-installed . 
+  number: 1
+  script: {{ PYTHON }} -m pip install . --no-deps -vv 
 
 requirements:
-  build:
-    - python
+  host:
+    - python {{ python_min }}
     - pip
   run:
-    - python
+    - python >={{ python_min }}
     - toolz
     - tornado
     - streamz
@@ -29,6 +29,8 @@ requirements:
 
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - streamz
     - streamz.core
